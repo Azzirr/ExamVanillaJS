@@ -67,196 +67,196 @@
     {
         "rank": "2",
         "suit": "diamond",
-        "value": "13"
+        "value": "00"
     },
     {
         "rank": "3",
         "suit": "diamond",
-        "value": "14"
+        "value": "01"
     },
     {
         "rank": "4",
         "suit": "diamond",
-        "value": "15"
+        "value": "02"
     },
     {
         "rank": "5",
         "suit": "diamond",
-        "value": "16"
+        "value": "03"
     },
     {
         "rank": "6",
         "suit": "diamond",
-        "value": "17"
+        "value": "04"
     },
     {
         "rank": "7",
         "suit": "diamond",
-        "value": "18"
+        "value": "05"
     },
     {
         "rank": "8",
         "suit": "diamond",
-        "value": "19"
+        "value": "06"
     },
     {
         "rank": "9",
         "suit": "diamond",
-        "value": "20"
+        "value": "07"
     },
     {
         "rank": "10",
         "suit": "diamond",
-        "value": "21"
+        "value": "08"
     },
     {
         "rank": "J",
         "suit": "diamond",
-        "value": "22"
+        "value": "09"
     },
     {
         "rank": "Q",
         "suit": "diamond",
-        "value": "23"
+        "value": "10"
     },
     {
         "rank": "K",
         "suit": "diamond",
-        "value": "24"
+        "value": "11"
     },
     {
         "rank": "A",
         "suit": "diamond",
-        "value": "25"
+        "value": "12"
     },
     {
         "rank": "2",
         "suit": "heart",
-        "value": "26"
+        "value": "00"
     },
     {
         "rank": "3",
         "suit": "heart",
-        "value": "27"
+        "value": "01"
     },
     {
         "rank": "4",
         "suit": "heart",
-        "value": "28"
+        "value": "02"
     },
     {
         "rank": "5",
         "suit": "heart",
-        "value": "29"
+        "value": "03"
     },
     {
         "rank": "6",
         "suit": "heart",
-        "value": "30"
+        "value": "04"
     },
     {
         "rank": "7",
         "suit": "heart",
-        "value": "31"
+        "value": "05"
     },
     {
         "rank": "8",
         "suit": "heart",
-        "value": "32"
+        "value": "06"
     },
     {
         "rank": "9",
         "suit": "heart",
-        "value": "33"
+        "value": "07"
     },
     {
         "rank": "10",
         "suit": "heart",
-        "value": "34"
+        "value": "08"
     },
     {
         "rank": "J",
         "suit": "heart",
-        "value": "35"
+        "value": "09"
     },
     {
         "rank": "Q",
         "suit": "heart",
-        "value": "36"
+        "value": "10"
     },
     {
         "rank": "K",
         "suit": "heart",
-        "value": "37"
+        "value": "11"
     },
     {
         "rank": "A",
         "suit": "heart",
-        "value": "38"
+        "value": "12"
     },
     {
         "rank": "2",
         "suit": "spade",
-        "value": "39"
+        "value": "00"
     },
     {
         "rank": "3",
         "suit": "spade",
-        "value": "40"
+        "value": "01"
     },
     {
         "rank": "4",
         "suit": "spade",
-        "value": "41"
+        "value": "02"
     },
     {
         "rank": "5",
         "suit": "spade",
-        "value": "42"
+        "value": "03"
     },
     {
         "rank": "6",
         "suit": "spade",
-        "value": "43"
+        "value": "04"
     },
     {
         "rank": "7",
         "suit": "spade",
-        "value": "44"
+        "value": "05"
     },
     {
         "rank": "8",
         "suit": "spade",
-        "value": "45"
+        "value": "06"
     },
     {
         "rank": "9",
         "suit": "spade",
-        "value": "46"
+        "value": "07"
     },
     {
         "rank": "10",
         "suit": "spade",
-        "value": "47"
+        "value": "08"
     },
     {
         "rank": "J",
         "suit": "spade",
-        "value": "48"
+        "value": "09"
     },
     {
         "rank": "Q",
         "suit": "spade",
-        "value": "49"
+        "value": "10"
     },
     {
         "rank": "K",
         "suit": "spade",
-        "value": "50"
+        "value": "11"
     },
     {
         "rank": "A",
         "suit": "spade",
-        "value": "51"
+        "value": "12"
     }
 ]
