@@ -4,7 +4,9 @@ let hand = [];
 function bestDeck(){
     // hand shuffle cards
     for(let i = 0; i < 5; i++){
-        hand.push(pokerData[Math.floor(Math.random() * pokerData.length)])
+        let push = (pokerData[Math.floor(Math.random() * pokerData.length)]);
+        hand.push(push);
+        pokerData.splice(push, 1)
     }
     // // TO DO! ELIMINATE DUPLICATES!
     // // hand sort
@@ -52,7 +54,7 @@ function bestDeck(){
         //console.log(cards)
         if(cards === "10JQKA"){
             return 'ROYAL FLUSH'
-        } else if(cards === '2345A' || cards === '23456' || cards === '34567' || cards === '45678' || cards === '56789' || cards === '678910' || cards === '78910J' || cards === ' 8910JQ' || cards === ' 910JQK'){
+        } else if(cards === '2345A' || cards === '23456' || cards === '34567' || cards === '45678' || cards === '56789' || cards === '678910' || cards === '78910J' || cards === '8910JQ' || cards === '910JQK'){
             return 'STRAIGHT'
         } else {
             return false;
