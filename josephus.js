@@ -5,7 +5,6 @@ function josephus(n, k){
     for(let i = 0; i < n; i++){
         soldiers.push((i + 1))
     }
-    console.log(soldiers)
     if(n === 1){
         console.log('There is only one person, I suggest to commit Sepuku.')
     }
@@ -20,11 +19,22 @@ function josephus(n, k){
         soldiers = soldiers.filter(element => {
             return !deadSoldiers.includes(element)
         })
-        for(let j = 0; j < soldiers.length; j++){
-            console.log(soldiers[j] + ' kills ' + deadSoldiers[j])
-        }    
+
+        if(deadSoldiers.length === 3){
+            for(let j = 0; j < soldiers.length; j++){
+                if(soldiers[j] <= 6){
+                    console.log(soldiers[j] + ' kills ' + deadSoldiers[j])
+                }
+            }
+        }
+        console.log(deadSoldiers)
+        for(let z = 4; z <= 6; z++){
+            if(deadSoldiers.length === z){
+                console.log(soldiers[0] + ' kills ' + deadSoldiers[deadSoldiers.length - 1])
+            }
+        }
     }
-    console.log(deadSoldiers)
-    console.log(soldiers)
+    console.log(soldiers[0] + ' remains alive!')
+
 }
-josephus(8, 2)
+josephus(7, 2)
