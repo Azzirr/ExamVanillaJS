@@ -1,0 +1,34 @@
+
+#header{
+    text-align: center;
+}
+#containerr{
+    height: 1024;
+    width: 768;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#sudoku {
+    width:630px;
+    height:630px;
+    margin-left: 435px;
+    margin-right: 435px;
+}
+.parentCube {
+    width:206px;
+    height:206px;
+    float:left;
+    border: 2px solid green;
+}
+.childCube {
+    width:68px;
+    height:68px;
+    float:left;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+.cubeColorGrey{
+    background-color: grey;
+}
+  
