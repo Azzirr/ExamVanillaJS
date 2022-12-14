@@ -2,17 +2,16 @@
 #header{
     text-align: center;
 }
-#containerr{
-    height: 1024;
-    width: 768;
-    margin-left: 300px;
-    margin-right: 300px;
+#container{
+    max-height: 1024px;
+    max-width: 768px;
+    border: 2px solid red;
+    margin: auto;
 }
 #sudoku {
     width:630px;
     height:630px;
-    margin-left: 435px;
-    margin-right: 435px;
+    margin-left: 69px;
 }
 .parentCube {
     width:206px;
